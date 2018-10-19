@@ -1,6 +1,8 @@
 # Kactus Desktop Dark Fusion Theme
 
 ![Theme](https://img.shields.io/badge/theme-dark--fusion-orange.svg)
+![GitHub release](https://img.shields.io/github/release/typerror/kactus-dark-fusion.svg)
+![Github commits (since latest release)](https://img.shields.io/github/commits-since/typerror/kactus-dark-fusion/latest.svg)
 ![Tested platform](https://img.shields.io/badge/tested-macOS%2010.14-black.svg)
 ![GitHub issues](https://img.shields.io/github/issues/typerror/kactus-dark-fusion.svg)
 ![GitHub file size](https://img.shields.io/github/size/typerror/kactus-dark-fusion/kactus--dark-fusion.css.svg)
