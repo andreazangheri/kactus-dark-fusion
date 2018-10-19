@@ -260,7 +260,6 @@
   --easing-ease-out-quint: cubic-bezier(0.23, 1, 0.32, 1); */
 }
 
-
 input,
 textarea,
 select {
@@ -288,13 +287,13 @@ body.platform-win32 .select-component select {
   background-color: var(--background-color); /* The little square between H and V scrollbars */
 }
 
-body.platform-darwin #desktop-app-title-bar {
-  height: var(--darwin-title-bar-height);
-  background: linear-gradient(to bottom, #2f3542 0%, #2f3542 100%);
-  border-bottom: 1px solid #292e3a; /* Removing bottom border will eliminate the bottom title-bar border */
+#kactus-app-title-bar {
+    height: var(--title-bar-height);
+    background: linear-gradient(to bottom, #2f3542 0%, #2f3542 100%);
+    border-bottom: 1px solid #292e3a;
 }
 
-#desktop-app-toolbar {
+#kactus-app-toolbar {
   border-bottom: 1px solid #292e3a;
 }
 
@@ -307,7 +306,7 @@ body.platform-darwin #desktop-app-title-bar {
  * With border-right it won't line up between the button and the foldout (by a pixel),
  * and an inset box-shadow will get covered up. Create an inset border with a psuedo element.
  */
-#desktop-app-toolbar .foldout::after {
+#kactus-app-toolbar .foldout::after {
   content: "";
   position: absolute;
   right: 0;
@@ -319,7 +318,7 @@ body.platform-darwin #desktop-app-title-bar {
  * The foldout can be wider than the button, so we want a non-rectangular border.
  * First create a line between the foldout and the toolbar.
  */
-#desktop-app-toolbar .foldout::before
+#kactus-app-toolbar .foldout::before
 {
   content: "";
   position: absolute;
