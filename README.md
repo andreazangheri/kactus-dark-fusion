@@ -1,19 +1,22 @@
-# Deprecated! 🎉
+# Kactus Desktop Dark Fusion Theme
 
-There's now a dark theme (currently in beta) built into GitHub Desktop.
+![Theme](https://img.shields.io/badge/theme-dark--fusion-orange.svg)
+![Tested platform](https://img.shields.io/badge/tested-macOS%2010.14-black.svg)
+![GitHub issues](https://img.shields.io/github/issues/typerror/kactus-dark-fusion.svg)
+![GitHub file size](https://img.shields.io/github/size/typerror/kactus-dark-fusion/kactus--dark-fusion.css.svg)
+![GitHub](https://img.shields.io/github/license/typerror/kactus-dark-fusion.svg)
 
-Access it from **File > Options... > Appearance**
+# Warning!
 
---------------------------------------------------------------------------------
+This theme will override your __current selected__ theme.
 
-# GitHub Desktop Dark Theme
-
-A sleek stopgap stylesheet for adding dark mode to GitHub Desktop ([issue #1515](https://github.com/desktop/desktop/issues/1515))
+At the moment this theme has been tested only on macOS 10.14
 
 ## Install
 
-1. Open the devtools with **View > Toggle developer tools** (or <kbd>Ctrl+Shift+I</kbd>)
-2. Paste in the following into the Console and hit <kbd>Enter</kbd>:
+1. Open Kactus Dekstop
+2. Open the devtools with **View > Toggle developer tools** (or <kbd>Cmd+alt+I</kbd>)
+3. Paste in the following into the Console and hit <kbd>Enter</kbd>:
 ```js
 const fs = require('fs');
 const path = require('path');
@@ -30,9 +33,9 @@ if (fs.existsSync(path.join(res, 'app/index.html'))) {
 
 let html = fs.readFileSync(html_file_path, "utf8");
 
-const link_to_inject = '<link href="https://rawgit.com/1j01/d8f8d11785d8fb21a70654e7aa8a4553/raw/desktop-dark.css" rel="stylesheet">';
+const link_to_inject = '  <link href="https://cdn.jsdelivr.net/gh/typerror/kactus-dark-fusion@v0.1-alpha/kactus--dark-fusion.css" rel="stylesheet">';
 html = html
-	.replace(/<link[^>]+(rawgit|custom-theme)[^>]+>/, '') // remove existing custom stylesheet if there is one
+	.replace(/<link[^>]+(cdn|custom-theme)[^>]+>/, '') // remove existing custom stylesheet if there is one
 	.replace('</head>', `\n${link_to_inject}</head>`); // add stylesheet
 
 try {
@@ -47,7 +50,7 @@ try {
 }
 
 // clear the cache so the stylesheet can update (could alternatively cache-bust with a URL parameter)
-const {remote} = require('electron'); 
+const {remote} = require('electron');
 const win = remote.getCurrentWindow();
 win.webContents.session.clearCache(() => {
 	if (confirm('Ready to refresh? :)')) {
@@ -58,17 +61,4 @@ win.webContents.session.clearCache(() => {
 
 GitHub Desktop will refresh and the theme should be applied.
 
-You'll need to reapply the stylesheet when GitHub Desktop updates.  
-Try opening the devtools console and hitting <kbd>↑</kbd> + <kbd>Enter</kbd>.
-(If that doesn't work you can come back here and see if the code is updated, or if it's deprecated because they've finally added a dark mode.)
-
-## TODO
-
-- pull in the rest of the changes by @ObserverOfTime
-	- what is (or was) `#configure-git-user .commit-list-example`? (and does it need styling?)
-- `.pull-request-tab .count` (the `background` is hardcoded, but uses CSS variable for text color, tisk tisk)
-- fix missing border at top of branches dropdown (`.branches-container > .tab-bar { border-top: var(--base-border); }`)
-
-## Thanks
-
-Thanks to @ObserverOfTime for improved cross platform compatibility in the install script and higher contrast colors for the code highlighting in diffs
+You'll need to reapply the stylesheet when GitHub Desktop updates.
