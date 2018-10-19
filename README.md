@@ -59,6 +59,6 @@ win.webContents.session.clearCache(() => {
 });
 ```
 
-GitHub Desktop will refresh and the theme should be applied.
+Kactus Desktop will refresh and the theme should be applied.
 
-You'll need to reapply the stylesheet when GitHub Desktop updates.
+You'll need to reapply the stylesheet when Kactus Desktop updates.
