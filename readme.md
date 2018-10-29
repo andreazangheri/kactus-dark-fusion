@@ -1,12 +1,21 @@
-# Kactus Desktop Dark Fusion Theme
+<h1 align="center">
+  Kactus Dark Fusion Theme
+  <br>
+  <br>
+  <a href="#"><img src="kactus--dark-fusion.png" alt="Kactus Dark Fusion Theme" width="800" height="auto"></a>
+  <br>
+  <br>
+</h1>
 
-![Theme](https://img.shields.io/badge/theme-dark--fusion-orange.svg)
-![GitHub release](https://img.shields.io/github/release/typerror/kactus-dark-fusion.svg)
-![Github commits (since latest release)](https://img.shields.io/github/commits-since/typerror/kactus-dark-fusion/latest.svg)
-![Tested platform](https://img.shields.io/badge/macos-10.14-black.svg)
-![GitHub issues](https://img.shields.io/github/issues/typerror/kactus-dark-fusion.svg)
-![GitHub file size](https://img.shields.io/github/size/typerror/kactus-dark-fusion/kactus--dark-fusion.css.svg)
-![GitHub](https://img.shields.io/github/license/typerror/kactus-dark-fusion.svg)
+<h4 align="center">Dark Fusion Theme for Kactus macOS app</h4>
+
+<p align="center">
+  <a href="https://github.com/typerror/kactus-dark-fusion"><img src="https://img.shields.io/badge/theme-Dark%20Fusion-2f3542.svg" alt="zenBoard"></a>
+  <a href="https://github.com/typerror/kactus-dark-fusion/releases"><img src="https://img.shields.io/github/release/typerror/kactus-dark-fusion.svg" alt="Release"></a>
+  <a href="#"><img src="https://img.shields.io/github/commits-since/typerror/kactus-dark-fusion/latest.svg" alt="Commits since latest release"></a>
+  <a href="#"><img src="https://img.shields.io/github/size/typerror/kactus-dark-fusion/kactus--dark-fusion.css.svg" alt="File Size"></a>
+  <a href="https://github.com/typerror/kactus-dark-fusion/license"><img src="https://img.shields.io/github/license/typerror/zen-board.svg" alt="License"></a>
+</p>
 
 ## Install
 
