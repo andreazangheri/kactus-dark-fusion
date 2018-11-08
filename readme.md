@@ -69,7 +69,7 @@ Kactus Desktop will refresh and the theme should be applied.
 You'll need to reapply the stylesheet when Kactus Desktop updates.ù
 
 <h2>
-  <a href="./assets/kactus--dark-fusion.png"><img src="./assets/kactus--dark-fusion.png" alt="Kactus Icon" width="800"></a>
+  <a href="./assets/kactus--dark-fusion.png"><img src="./assets/kactus--dark-fusion.png" alt="Kactus Dark Fusion Theme Preview" width="800"></a>
 </h2>
 
 
