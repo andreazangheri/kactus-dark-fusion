@@ -1,8 +1,8 @@
 <h1 align="center">
-  <a href="./kactus--dark-fusion.png"><img src="./kactus--dark-fusion.png" alt="Kactus Dark Fusion Theme" width="800" height="auto"></a>
+  <a href="./assets/icon.png"><img src="./assets/icon.png" alt="Kactus Icon" width="200"></a>
   <br>
   <br>
-  Kactus Desktop Dark Fusion Theme
+  Kactus Dark Fusion Theme
 </h1>
 
 <h4 align="center">Dark Fusion Theme for Kactus macOS app</h4>
@@ -10,10 +10,10 @@
 <p align="center">
   <a href="./kactus--dark-fusion.png"><img src="https://img.shields.io/badge/theme-Dark%20Fusion-2f3542.svg" alt="Kactus Dark Fusion"></a>
   <a href="https://github.com/typerror/kactus-dark-fusion/releases"><img src="https://img.shields.io/github/release/typerror/kactus-dark-fusion.svg" alt="Release"></a>
-  <a href="https://github.com/typerror/kactus-dark-fusion/license"><img src="https://img.shields.io/github/license/typerror/kactus-dark-fusion.svg" alt="License"></a>
+  <a href="https://github.com/typerror/kactus-dark-fusion/license"><img src="https://img.shields.io/github/license/typerror/kactus-dark-fusion.svg" alt="License"></a><br>
 </p>
 
-## Install
+### Install
 
 This theme will override your **currently selected** theme.
 
@@ -66,4 +66,22 @@ win.webContents.session.clearCache(() => {
 
 Kactus Desktop will refresh and the theme should be applied.
 
-You'll need to reapply the stylesheet when Kactus Desktop updates.
+You'll need to reapply the stylesheet when Kactus Desktop updates.ù
+
+<h2>
+  <a href="./assets/kactus--dark-fusion.png"><img src="./assets/kactus--dark-fusion.png" alt="Kactus Icon" width="800"></a>
+</h2>
+
+
+### Code Style
+
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-5ae55b.svg)](https://github.com/prettier/prettier)
+
+
+### License
+
+Kactus Dark Fusion Theme is not affiliated with Kactus. All other trademarks and copyrights are property of their respective owners.
+
+
+MIT. Copyright (c) [typerror](https://github.com/typerror)
+
