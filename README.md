@@ -2,9 +2,9 @@
 
 ![Theme](https://img.shields.io/badge/theme-dark--fusion-orange.svg)
 ![Tested platform](https://img.shields.io/badge/tested-macOS%2010.14-black.svg)
-![GitHub issues](https://img.shields.io/github/issues/typerror/kactus-dark-fusion.svg)
-![GitHub file size](https://img.shields.io/github/size/typerror/kactus-dark-fusion/kactus--dark-fusion.css.svg)
-![GitHub](https://img.shields.io/github/license/typerror/kactus-dark-fusion.svg)
+![GitHub issues](https://img.shields.io/github/issues/andreazangheri/kactus-dark-fusion.svg)
+![GitHub file size](https://img.shields.io/github/size/andreazangheri/kactus-dark-fusion/kactus--dark-fusion.css.svg)
+![GitHub](https://img.shields.io/github/license/andreazangheri/kactus-dark-fusion.svg)
 
 # Warning!
 
@@ -33,7 +33,7 @@ if (fs.existsSync(path.join(res, 'app/index.html'))) {
 
 let html = fs.readFileSync(html_file_path, "utf8");
 
-const link_to_inject = '  <link href="https://cdn.jsdelivr.net/gh/typerror/kactus-dark-fusion@v0.2-alpha/kactus--dark-fusion.css" rel="stylesheet">';
+const link_to_inject = '  <link href="https://cdn.jsdelivr.net/gh/andreazangheri/kactus-dark-fusion@v0.2-alpha/kactus--dark-fusion.css" rel="stylesheet">';
 html = html
 	.replace(/<link[^>]+(cdn|custom-theme)[^>]+>/, '') // remove existing custom stylesheet if there is one
 	.replace('</head>', `\n${link_to_inject}</head>`); // add stylesheet
